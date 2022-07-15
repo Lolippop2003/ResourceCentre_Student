@@ -226,7 +226,7 @@ public class ResourceCentreTest {
 		isReturned = ResourceCentre.doReturnChromebook(chromebookList, "CB0013");
 		assertFalse("Test if non-existing amcorder CC0013 is returned - false?", isReturned);
 	}
-	
+	 
 	@After
 	public void tearDown() throws Exception {
 		cc1 = null;
