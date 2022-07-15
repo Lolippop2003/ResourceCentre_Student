@@ -61,16 +61,25 @@ public class ResourceCentreTest {
 	public void testAddChromebook() {
 		//fail("Not yet implemented");
 		// write your code here 
+<<<<<<< HEAD
 		assertNotNull("Test if there is valid Chromebook arraylist to add to", chromebookList);
 		
+=======
+		assertNotNull("Test if there is valid Chromebook arraylist to add to", chromebookList);	
+>>>>>>> branch 'master' of https://github.com/Lolippop2003/ResourceCentre_Student.git
 		//Given an empty list, after adding 1 item, the size of the list is 1
 		ResourceCentre.addChromebook(chromebookList, cb1);		
 		assertEquals("Test if that Chromebook arraylist size is 2?", 2, chromebookList.size());
 				
 		//The item just added is as same as the first item of the list
 		assertSame("Test that Chromebook is added same as 1st item of the list?", cb1, chromebookList.get(0));
+<<<<<<< HEAD
 				
 		//Add another item. test The size of the list is 3?
+=======
+		
+		//Add another item. test The size of the list is 2?
+>>>>>>> branch 'master' of https://github.com/Lolippop2003/ResourceCentre_Student.git
 		ResourceCentre.addChromebook(chromebookList, cb2);
 		ResourceCentre.addChromebook(chromebookList, cb3);
 		assertEquals("Test that Chromebook arraylist size is 3?", 3, chromebookList.size());
@@ -124,6 +133,12 @@ public class ResourceCentreTest {
 		testOutput += String.format("%-10s %-30s %-10s %-10s %-20d\n","CB0012", "SAMSUNG Chromebook 4+", "Yes", "", "Win 10");
 	
 		assertEquals("Check that ViewAllChromebooklist", testOutput, allChromebook);
+<<<<<<< HEAD
+=======
+		
+		 
+		
+>>>>>>> branch 'master' of https://github.com/Lolippop2003/ResourceCentre_Student.git
 	}
 
 	@Test
@@ -188,6 +203,10 @@ public class ResourceCentreTest {
 		//error condition
 		ok = ResourceCentre.doLoanChromebook(chromebookList, "CB0013", "15-07-2022" );
 		assertFalse("Test that non-esiting item is NOT ok to loan?", ok);
+<<<<<<< HEAD
+=======
+		
+>>>>>>> branch 'master' of https://github.com/Lolippop2003/ResourceCentre_Student.git
 	}
 	
 	@Test
@@ -229,7 +248,11 @@ public class ResourceCentreTest {
 		
 		//error
 		isReturned = ResourceCentre.doReturnChromebook(chromebookList, "CB0013");
+<<<<<<< HEAD
 		assertFalse("Test if non-existing chromebook CB0013 is returned - false?", isReturned);
+=======
+		assertFalse("Test if non-existing amcorder CC0013 is returned - false?", isReturned);
+>>>>>>> branch 'master' of https://github.com/Lolippop2003/ResourceCentre_Student.git
 	}
 	
 	@After
