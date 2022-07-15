@@ -16,6 +16,10 @@ public class Chromebook extends Item{
 		// Write your codes here
 		return output;
 	}
+	
+	public void testAddChromebook() {
+		ds
+	}
 }
 
 
