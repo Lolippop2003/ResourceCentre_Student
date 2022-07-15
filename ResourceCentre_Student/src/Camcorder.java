@@ -16,5 +16,6 @@ private int opticalZoom;
 		// Write your codes here
 		return output;
 	}
+	
 }
 
