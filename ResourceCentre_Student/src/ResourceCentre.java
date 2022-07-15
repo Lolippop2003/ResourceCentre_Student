@@ -4,6 +4,7 @@ public class ResourceCentre {
 
 	public static void main(String[] args) {
 
+		//Hellu
 		ArrayList<Camcorder> camcorderList = new ArrayList<Camcorder>();
 		ArrayList<Chromebook> chromebookList = new ArrayList<Chromebook>();
 
