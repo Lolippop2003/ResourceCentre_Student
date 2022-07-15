@@ -200,7 +200,7 @@ public class ResourceCentreTest {
 		assertFalse("Test if available camcorder CC0011 is returned -false?", isReturned);		
 		//normal
 		ResourceCentre.addCamcorder(camcorderList, cc2);
-		cc2.setIsAvailable(false);
+		cc2.setIsAvailable(false); 
 		isReturned = ResourceCentre.doReturnCamcorder(camcorderList, "CC0012");
 		assertTrue("Test if loaned out amcorder CC0012 is returned- true", isReturned);
 		//error
